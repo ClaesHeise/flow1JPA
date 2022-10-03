@@ -56,6 +56,7 @@ public class Semester
     public void setDescription(String description)
     {
         this.description = description;
+
     }
 
     public String getName()

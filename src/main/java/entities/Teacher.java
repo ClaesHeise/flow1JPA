@@ -75,4 +75,15 @@ public class Teacher
         this.semesters = semesters;
     }
 
+    public void assignCurrentSemester(Semester currentSemester){
+        if(currentSemester != null){
+            this.semesters.add(currentSemester);
+        }
+    }
+
+    public void removeCurrentSemester(Semester currentSemester){
+        if(currentSemester != null){
+            this.semesters.remove(currentSemester);
+        }
+    }
 }
